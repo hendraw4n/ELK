@@ -1,0 +1,21 @@
+[
+  {
+    "_id": "Group-Email-Dashboard",
+    "_type": "dashboard",
+    "_source": {
+      "title": "Group Email Dashboard",
+      "hits": 0,
+      "description": "",
+      "panelsJSON": "[{\"col\":10,\"id\":\"Email:-Top-10-Clients-IPs\",\"panelIndex\":3,\"row\":1,\"size_x\":3,\"size_y\":3,\"type\":\"visualization\"},{\"col\":1,\"id\":\"Email:-Access-Based-On-Domain-Name\",\"panelIndex\":5,\"row\":17,\"size_x\":12,\"size_y\":4,\"type\":\"visualization\"},{\"col\":1,\"id\":\"Email:-Response-Codes\",\"panelIndex\":7,\"row\":4,\"size_x\":3,\"size_y\":3,\"type\":\"visualization\"},{\"col\":1,\"id\":\"Email:-Mailbox-Access\",\"panelIndex\":8,\"row\":1,\"size_x\":6,\"size_y\":3,\"type\":\"visualization\"},{\"col\":4,\"id\":\"Email:-Top-10-Clients-Agents\",\"panelIndex\":12,\"row\":4,\"size_x\":6,\"size_y\":3,\"type\":\"visualization\"},{\"col\":1,\"id\":\"Email:-Chat-Request\",\"panelIndex\":13,\"row\":21,\"size_x\":12,\"size_y\":3,\"type\":\"visualization\"},{\"col\":1,\"id\":\"Email:-Mobile-Devices\",\"panelIndex\":14,\"row\":7,\"size_x\":3,\"size_y\":3,\"type\":\"visualization\"},{\"col\":10,\"id\":\"Email:-Top-5-Protocols\",\"panelIndex\":15,\"row\":4,\"size_x\":3,\"size_y\":3,\"type\":\"visualization\"},{\"col\":7,\"id\":\"Email:-Top-10-Username\",\"panelIndex\":16,\"row\":1,\"size_x\":3,\"size_y\":3,\"type\":\"visualization\"},{\"col\":4,\"id\":\"Email:-Authentication-Error\",\"panelIndex\":17,\"row\":7,\"size_x\":6,\"size_y\":3,\"type\":\"visualization\"},{\"col\":1,\"id\":\"Email:-Messages-Status\",\"panelIndex\":19,\"row\":14,\"size_x\":12,\"size_y\":3,\"type\":\"visualization\"},{\"col\":1,\"id\":\"Email:-Top-Sender\",\"panelIndex\":20,\"row\":10,\"size_x\":12,\"size_y\":4,\"type\":\"visualization\"}]",
+      "optionsJSON": "{\"darkTheme\":false}",
+      "uiStateJSON": "{\"P-14\":{\"spy\":{\"mode\":{\"fill\":false,\"name\":null}}},\"P-5\":{\"spy\":{\"mode\":{\"fill\":false,\"name\":null}}},\"P-8\":{\"spy\":{\"mode\":{\"fill\":false,\"name\":null}}}}",
+      "version": 1,
+      "timeRestore": true,
+      "timeTo": "now",
+      "timeFrom": "now-15m",
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[{\"query\":{\"query_string\":{\"analyze_wildcard\":true,\"query\":\"*\"}}}]}"
+      }
+    }
+  }
+]

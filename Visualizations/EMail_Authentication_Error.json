@@ -1,0 +1,17 @@
+[
+  {
+    "_id": "Email:-Authentication-Error",
+    "_type": "visualization",
+    "_source": {
+      "title": "Email: Authentication Error",
+      "visState": "{\"type\":\"table\",\"params\":{\"perPage\":10,\"showPartialRows\":false,\"showMeticsAtAllLevels\":false},\"aggs\":[{\"id\":\"1\",\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"type\":\"significant_terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"error.raw\",\"size\":10}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "savedSearchId": "zimbra-audit",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[]}"
+      }
+    }
+  }
+]

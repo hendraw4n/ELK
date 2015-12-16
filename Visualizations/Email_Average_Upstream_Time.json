@@ -1,0 +1,17 @@
+[
+  {
+    "_id": "Email:-Avg-Upstream-Time",
+    "_type": "visualization",
+    "_source": {
+      "title": "Email: Avg Upstream Time",
+      "visState": "{\"type\":\"metric\",\"params\":{\"fontSize\":60},\"aggs\":[{\"id\":\"2\",\"type\":\"avg\",\"schema\":\"metric\",\"params\":{\"field\":\"upstream_time\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "savedSearchId": "nginx-access",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[]}"
+      }
+    }
+  }
+]
