@@ -1,0 +1,17 @@
+[
+  {
+    "_id": "Email:-Top-5-Protocols",
+    "_type": "visualization",
+    "_source": {
+      "title": "Email: Top 5 Protocols",
+      "visState": "{\"type\":\"pie\",\"params\":{\"shareYAxis\":true,\"addTooltip\":true,\"addLegend\":true,\"isDonut\":false},\"aggs\":[{\"id\":\"1\",\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"type\":\"significant_terms\",\"schema\":\"segment\",\"params\":{\"field\":\"protocol.raw\",\"size\":5}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "savedSearchId": "zimbra-audit",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[]}"
+      }
+    }
+  }
+]

@@ -1,0 +1,16 @@
+[
+  {
+    "_id": "Email:-Top-10-Clients-Agents",
+    "_type": "visualization",
+    "_source": {
+      "title": "Email: Top 10 Clients Agents",
+      "visState": "{\"type\":\"table\",\"params\":{\"perPage\":10,\"showPartialRows\":false,\"showMeticsAtAllLevels\":false},\"aggs\":[{\"id\":\"1\",\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"type\":\"significant_terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"agent.raw\",\"size\":10,\"exclude\":{\"flags\":[\"UNIX_LINES\"]}}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[],\"index\":\"logstash-*\",\"highlight\":{\"pre_tags\":[\"@kibana-highlighted-field@\"],\"post_tags\":[\"@/kibana-highlighted-field@\"],\"fields\":{\"*\":{}},\"require_field_match\":false,\"fragment_size\":2147483647},\"query\":{\"query_string\":{\"query\":\"type:nginx-access\",\"analyze_wildcard\":true}}}"
+      }
+    }
+  }
+]

@@ -1,0 +1,16 @@
+[
+  {
+    "_id": "Email:-Proxy-Log-Count",
+    "_type": "visualization",
+    "_source": {
+      "title": "Email: Proxy Log Count",
+      "visState": "{\"type\":\"metric\",\"params\":{\"fontSize\":\"30\"},\"aggs\":[{\"id\":\"1\",\"type\":\"count\",\"schema\":\"metric\",\"params\":{}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"logstash-*\",\"query\":{\"query_string\":{\"query\":\"type:nginx-access\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  }
+]

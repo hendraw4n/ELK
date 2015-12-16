@@ -1,0 +1,16 @@
+[
+  {
+    "_id": "Email:-Top-10-Clients-IPs",
+    "_type": "visualization",
+    "_source": {
+      "title": "Email: Top 10 Clients IPs",
+      "visState": "{\"type\":\"pie\",\"params\":{\"shareYAxis\":true,\"addTooltip\":true,\"addLegend\":true,\"isDonut\":true},\"aggs\":[{\"id\":\"1\",\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"type\":\"significant_terms\",\"schema\":\"segment\",\"params\":{\"field\":\"clientip.raw\",\"size\":10}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[],\"index\":\"logstash-*\",\"highlight\":{\"pre_tags\":[\"@kibana-highlighted-field@\"],\"post_tags\":[\"@/kibana-highlighted-field@\"],\"fields\":{\"*\":{}},\"require_field_match\":false,\"fragment_size\":2147483647},\"query\":{\"query_string\":{\"query\":\"type:nginx-access\",\"analyze_wildcard\":true}}}"
+      }
+    }
+  }
+]
